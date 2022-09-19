@@ -1,0 +1,6 @@
+@mixin box-shadow {
+    box-shadow: 0 0 20px rgb(0 0 0 / 10%);
+}
+@mixin border {
+    border: 2px solid rgb(0, 0, 0);
+}

@@ -1,0 +1,52 @@
+@import "Fonts";
+$clr-blue-100: rgba(153, 204, 255, 0.1);
+$clr-blue-300: hsl(210, 100%, 80%);
+$clr-blue-400: hsl(210, 100%, 50%);
+$clr-black-200: hsl(235, 30%, 55%);
+$clr-black-300: hsl(246, 13%, 32%);
+$clr-white-400: hsl(0, 0%, 100%);
+
+$ff-Gumela: "Gumela", Nunito;
+$ff-Nunito: "Nunito", sans-serif;
+$ff-Poppins: "Poppins", sans-serif;
+$ff-Noto-Bangla: "Noto Sans Bengali", sans-serif;
+$ff-Soviet: "Soviet", Noto Sans Bengali;
+$ff-HindSiliguri: "HindSiliguri", Noto Sans Bengali;
+
+$ff-text: ($ff-Nunito);
+$ff-body: ($ff-HindSiliguri);
+$ff-nav: ($ff-HindSiliguri);
+$ff-button: ($ff-HindSiliguri);
+$ff-home-heading: ($ff-Soviet);
+$ff-primary-heading: ($ff-Soviet);
+$ff-secondary-heading: ($ff-HindSiliguri);
+
+$fw-regular: 400;
+$fw-semi-bold: 600;
+$fw-bold: 700;
+
+:root {
+  --size-100: 0.75rem;
+  --size-200: 0.85rem;
+  --size-300: 0.9rem;
+  --size-400: 1rem;
+  --size-500: 1.5rem;
+  --size-600: 2rem;
+  --size-700: 2.5rem;
+  --size-800: 3rem;
+  --size-900: 4rem;
+
+  --fs-body: var(--size-400);
+  --fs-nav: var(--size-400);
+  --fs-home-heading: var(--size-700);
+  --fs-primary-heading: var(--size-600);
+  --fs-secondary-heading: var(--size-500);
+}
+@media (min-width: 50em) {
+  :root {
+    --fs-nav: var(--size-400);
+    --fs-home-heading: var(--size-900);
+    --fs-primary-heading: var(--size-800);
+    --fs-secondary-heading: var(--size-600);
+  }
+}
